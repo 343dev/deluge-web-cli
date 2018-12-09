@@ -1,7 +1,7 @@
 {
   "name": "deluge-web-cli",
   "version": "1.0.0",
-  "description": "deluge-web command line interface.",
+  "description": "A simple deluge-web command line interface.",
   "main": "index.js",
   "bin": {
     "deluge-web-cli": "./cli.js"
