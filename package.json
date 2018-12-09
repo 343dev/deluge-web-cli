@@ -11,5 +11,8 @@
     "deluge-web"
   ],
   "author": "343dev",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  }
 }
