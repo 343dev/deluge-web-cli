@@ -20,6 +20,7 @@
     "node": ">=8"
   },
   "dependencies": {
+    "axios": "0.18.0",
     "commander": "2.19.0"
   },
   "devDependencies": {
