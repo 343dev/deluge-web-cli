@@ -11,7 +11,7 @@ program
   .option('-r, --recursive', 'Get files from provided directory and the entire subtree');
 
 program
-  .usage('[options] <file ...>')
+  .usage('[options] <file ...> <url>')
   .version(require('./package').version, '-v, --version')
   .description(require('./package').description)
   .parse(process.argv);
