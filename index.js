@@ -1,7 +1,6 @@
 const fs = require('fs');
 const glob = require('glob');
 const logSymbols = require('log-symbols');
-const path = require('path');
 
 const DelugeRPC = require('./lib/deluge-rpc');
 
@@ -49,7 +48,7 @@ async function delugeWebCli({
       const result = await deluge.addTorrent(filePath, { add_paused: isPaused });
 
       if (result) {
-        console.log(`Added: ${path.basename(filePath)}`);
+        showMessage(result);
 
         if (isDelete) {
           fs.unlinkSync(filePath);
